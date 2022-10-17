@@ -20,10 +20,10 @@ Accountify is a software as an a-service application that can permit users to ad
 - Graphics
 - Multiple currencies
 - Currencies conversion
-- responsive
+- Responsive
 
 ### V.3
-- diferent timezones
-- perpetual profits/expenses
+- Diferent timezones
+- Perpetual profits/expenses
 
 
