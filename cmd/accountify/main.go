@@ -15,6 +15,8 @@ func main() {
 	r.HandleFunc("/", handler.HomeHandler)
 	r.HandleFunc("/login", handler.LoginHandler)
 	r.HandleFunc("/signup", handler.SignUpHandler)
+	r.HandleFunc("/contact", handler.ContactHandler)
+	r.HandleFunc("/recovery", handler.RecoveryHandler)
 
 	// start server
 	log.Println("App running on http://localhost:8080")
