@@ -10,7 +10,7 @@ import (
 
 func main() {
 	r := mux.NewRouter()
-	fileserver := http.FileServer(http.Dir("./web/css/"))
+	fileserver := http.FileServer(http.Dir("./web/static/"))
 
 	// handlers routes
 	r.HandleFunc("/", handler.HomeHandler)
